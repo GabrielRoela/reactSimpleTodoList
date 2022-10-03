@@ -44,6 +44,7 @@ function App() {
     const data = await res.json()
 
     setTasks([...tasks, data])
+    
     // this is old code for doing only UI add task. above is new code for using with json-server
     // const id = Math.floor(Math.random() * 1000)
 
